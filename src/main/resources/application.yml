@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://dpg-d79sljnkijhs73938k10-a:5432/finance_db_p8wh
     username: finance_db_p8wh_user
-    password: YOUR_ACTUAL_PASSWORD_HERE
+    password: Z0izF8YqEvsdvILSpG469pwOi87TRHa1
     driver-class-name: org.postgresql.Driver
 
   jpa:
