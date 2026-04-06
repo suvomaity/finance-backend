@@ -3,9 +3,9 @@ spring:
     name: finance-backend
 
   datasource:
-    url: jdbc:postgresql://dpg-d79sljnkijhs73938k10-a:5432/finance_db_p8wh
-    username: finance_db_p8wh_user
-    password: Z0izF8YqEvsdvILSpG469pwOi87TRHa1
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/finance_db}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
     driver-class-name: org.postgresql.Driver
 
   jpa:
