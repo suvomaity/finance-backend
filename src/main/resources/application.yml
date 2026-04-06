@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://dpg-d79sljnkijhs73938k10-a:5432/finance_db_p8wh
     username: finance_db_p8wh_user
-    password: Z0izF8YqEvsdvILSpG469pwOi87TRHa1   
+    password: YOUR_ACTUAL_PASSWORD_HERE
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -15,7 +15,6 @@ spring:
     defer-datasource-initialization: true
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
 
   jackson:
